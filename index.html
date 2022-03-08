@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self-Care-Assistant</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div id="calendar-info">
+          <p class="cal-item" id="time"></p>
+          <p class="cal-item" id="weather"></p>
+        </div>
+        <h1>How can I help you today?</h1>
+      </main>
+
+      <section id="support-options">
+        <button id="self-care-support" class="option-btn">
+          Self-Care Support
+        </button>
+        <div id="self-care-expand" class="">
+          <button id="self-care-button" class="suggestion-btn">
+            Allow me to suggest:
+          </button>
+          <p id="self-care-result">Drink water</p>
+        </div>
+
+        <button id="personal-support" class="option-btn">
+          Need something to do?
+        </button>
+        <div id="personal-expand" class="hidden">
+          <button id="personal-button" class="suggestion-btn">
+            Allow me to suggest:
+          </button>
+        </div>
+
+        <button id="work-support" class="option-btn">
+          Need work motivation?
+        </button>
+        <div id="work-expand" class="hidden">
+          <button id="work-button" class="suggestion-btn">
+            Allow me to suggest:
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <footer>&copy; Copyright - Dakota Fabro</footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+:root {
+  --body-color: #fef9ef;
+  --self-care-color: #a2d2ff;
+  --personal-color: #ff865e;
+  --work-color: #fee440;
+  --standard-opacity: 0.5;
+  --border-radius: 10px;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px auto;
+  background-color: var(--body-color);
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  margin: 0px auto;
+  background-color: var(--main-color);
+  width: 100%;
+  padding: 20px;
+}
+
+.container {
+  margin: 15% 25% 50% 25%;
+}
+
+.hidden {
+  display: none;
+}
+
+#support-options .option-btn {
+  border: 2px solid black;
+  padding: 20px 40px;
+  text-align: center;
+  margin: 10px 0px 5px 0px;
+  width: 100%;
+}
+
+.suggestion-btn {
+  border: 2px solid var(--self-care-color);
+  background-color: var(--self-care-color);
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0px 0px 5px 0px;
+  width: 75%;
+  border-radius: var(--border-radius);
+  font-size: medium;
+}
+
+#support-options div {
+  border: 2px solid black;
+  padding: 20px 40px;
+  text-align: center;
+  margin: 0px 0px 15px 0px;
+}
+
+#self-care-support {
+  background-color: var(--self-care-color);
+}
+
+#personal-support {
+  background-color: var(--personal-color);
+}
+
+#work-support {
+  background-color: var(--work-color);
+}
+
+#calendar-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+#calendar-info .cal-item {
+  flex-direction: row;
+}
