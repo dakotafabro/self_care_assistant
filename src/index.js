@@ -115,6 +115,7 @@ function getRandomInt(max) {
 function getOption(list, element) {
   let result = document.querySelector(element);
   result.innerHTML = list[getRandomInt(list.length)];
+  setTimeout(100);
 }
 
 function handleResponse(response) {
