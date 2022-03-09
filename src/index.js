@@ -118,6 +118,7 @@ function getOption(list, element) {
 }
 
 function handleResponse(response) {
+  console.log(response.data.activity);
   let personalResult = document.querySelector("#personal-result");
   personalResult.innerHTML = response.data.activity;
 }
