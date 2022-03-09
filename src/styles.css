@@ -1,6 +1,6 @@
 :root {
   --body-color: #fef9ef;
-  --btn-color: rgba(75, 185, 139, 0.75);
+  --btn-color: rgba(75, 185, 139);
   --btn-hover-color: rgb(75, 185, 139);
   --self-care-color: #a2d2ff;
   --personal-color: #ff865e;
@@ -35,7 +35,7 @@ footer {
 }
 
 .container {
-  margin: 5% 25% 50% 25%;
+  margin: 10% 25% 50% 25%;
 }
 
 .hidden {
@@ -51,13 +51,11 @@ footer {
 }
 
 .suggestion-btn {
-  border: 2px solid var(--btn-color);
   box-shadow: 5px 5px 10px rgb(180, 180, 180);
-  background-color: var(--btn-color);
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: center;
-  margin: 0px 0px 10px 0px;
-  width: 75%;
+  margin: 0px 0px 15px 0px;
+  width: 25% !important;
   border-radius: var(--border-radius);
   font-size: medium;
   transition: 200ms ease-in-out;
@@ -66,6 +64,21 @@ footer {
 .suggestion-btn:hover {
   background-color: var(--btn-hover-color);
   border: 2px solid var(--btn-hover-color);
+}
+
+#work-expand .suggestion-btn {
+  border: 2px solid var(--work-color);
+  background-color: var(--work-color);
+}
+
+#personal-expand .suggestion-btn {
+  border: 2px solid var(--personal-color);
+  background-color: var(--personal-color);
+}
+
+#self-care-expand .suggestion-btn {
+  border: 2px solid var(--self-care-color);
+  background-color: var(--self-care-color);
 }
 
 #support-options div {
@@ -89,7 +102,7 @@ footer {
 
 #calendar-info {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #calendar-info .cal-item {

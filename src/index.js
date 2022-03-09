@@ -54,10 +54,6 @@ let today = `${month} ${day}, ${year}`;
 let time = document.querySelector("#time");
 time.innerHTML = `${today} - ${hours}:${minutes}`;
 
-// setting weather
-let weather = document.querySelector("#weather");
-weather.innerHTML = `64&deg; ICON`;
-
 // setting and cycling through self-care options
 let self_care_options = [
   "Drink a glass of water ",
@@ -86,29 +82,30 @@ let self_care_options = [
 ];
 
 let work_options = [
-  "Drink a glass of water ",
   "Go for a 10-minute walk",
   "Text a friend",
   "Take 5 deep breaths",
   "Make some tea",
-  "Watch your favorite movie",
-  "Take a shower",
-  "Call a friend",
   "Journal for 10 minutes",
-  "Go give some loves to your pet!",
-  "Order your favorite food",
   "Get some sunshine",
-  "Tell your houseplant positive affirmations",
-  "Take up a new skill--like ceramics!",
-  "Take the next 20 minutes as quiet time",
-  "Schedule a rest day with your partner or someone close to you",
-  "Cuddle with your pet",
+  "Tell your desk plant positive affirmations",
+  "Learn something new in an online course",
+  "Learn to code!",
+  "Schedule a vacation day in the next two weeks",
   "Schedule a wellness appointment with your doctor or therapist",
-  "Invite a friend or chosen family member over to spend some time together",
-  "Schedule a massage--schedule monthly massages for bonus points!",
-  "Look up new recipe and try it out!",
-  "Create some art",
   "Go outside and breathe in some fresh air",
+  "Set your intentions for the day",
+  "Set your intentions for the week",
+  "Write down a work project you've been wanting to do",
+  "Tell a coworker a positive affirmation",
+  "Thank someone who helped you at work this week",
+  "Have a snack",
+  "Ask someone if they'd like a coffee--and then get them some!",
+  "Learn Python",
+  "Do that simple small task you've been putting off",
+  "Pause and reflect on everything you've accomplished in the last year!",
+  "Pause and reflect on everything you've acccomplisted in the last week",
+  'Reflect on your "high" and "low" for today. Share it with a coworker!',
 ];
 
 function getRandomInt(max) {
