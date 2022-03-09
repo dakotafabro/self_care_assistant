@@ -124,7 +124,7 @@ function handleResponse(response) {
 }
 
 function getBoredAPIOption() {
-  const url = "http://www.boredapi.com/api/activity/";
+  const url = "https://www.boredapi.com/api/activity/";
 
   axios.get(url).then(handleResponse);
 }
