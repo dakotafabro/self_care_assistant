@@ -60,6 +60,7 @@ footer {
   border-radius: var(--border-radius);
   font-size: medium;
   transition: 200ms ease-in-out;
+  color: #000;
 }
 
 .suggestion-btn:hover {
