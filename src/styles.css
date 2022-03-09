@@ -32,6 +32,7 @@ footer {
   background-color: var(--btn-color);
   width: 100%;
   padding: 20px;
+  color: #fff;
 }
 
 .container {
