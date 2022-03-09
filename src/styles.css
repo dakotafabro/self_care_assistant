@@ -1,10 +1,12 @@
 :root {
   --body-color: #fef9ef;
+  --btn-color: rgba(75, 185, 139, 0.75);
+  --btn-hover-color: rgb(75, 185, 139);
   --self-care-color: #a2d2ff;
   --personal-color: #ff865e;
   --work-color: #fee440;
   --standard-opacity: 0.5;
-  --border-radius: 10px;
+  --border-radius: 0px;
 }
 
 body {
@@ -27,13 +29,13 @@ footer {
   bottom: 0px;
   text-align: center;
   margin: 0px auto;
-  background-color: var(--main-color);
+  background-color: var(--btn-color);
   width: 100%;
   padding: 20px;
 }
 
 .container {
-  margin: 15% 25% 50% 25%;
+  margin: 5% 25% 50% 25%;
 }
 
 .hidden {
@@ -49,14 +51,21 @@ footer {
 }
 
 .suggestion-btn {
-  border: 2px solid var(--self-care-color);
-  background-color: var(--self-care-color);
+  border: 2px solid var(--btn-color);
+  box-shadow: 5px 5px 10px rgb(180, 180, 180);
+  background-color: var(--btn-color);
   padding: 10px 20px;
   text-align: center;
-  margin: 0px 0px 5px 0px;
+  margin: 0px 0px 10px 0px;
   width: 75%;
   border-radius: var(--border-radius);
   font-size: medium;
+  transition: 200ms ease-in-out;
+}
+
+.suggestion-btn:hover {
+  background-color: var(--btn-hover-color);
+  border: 2px solid var(--btn-hover-color);
 }
 
 #support-options div {

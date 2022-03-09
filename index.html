@@ -21,11 +21,11 @@
         <button id="self-care-support" class="option-btn">
           Self-Care Support
         </button>
-        <div id="self-care-expand" class="">
+        <div id="self-care-expand" class="hidden">
           <button id="self-care-button" class="suggestion-btn">
-            Allow me to suggest:
+            Click Here
           </button>
-          <p id="self-care-result">Drink water</p>
+          <p id="self-care-result"></p>
         </div>
 
         <button id="personal-support" class="option-btn">
@@ -33,22 +33,23 @@
         </button>
         <div id="personal-expand" class="hidden">
           <button id="personal-button" class="suggestion-btn">
-            Allow me to suggest:
+            Click Here
           </button>
+          <p id="personal-result"></p>
         </div>
 
         <button id="work-support" class="option-btn">
           Need work motivation?
         </button>
         <div id="work-expand" class="hidden">
-          <button id="work-button" class="suggestion-btn">
-            Allow me to suggest:
-          </button>
+          <button id="work-button" class="suggestion-btn">Click Here</button>
+          <p id="work-result"></p>
         </div>
       </section>
     </div>
 
-    <footer>&copy; Copyright - Dakota Fabro</footer>
+    <footer>&copy; Copyright - Dakota Fabro 2022</footer>
     <script src="src/index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </body>
 </html>
